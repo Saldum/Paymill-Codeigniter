@@ -1,7 +1,9 @@
 Paymill-Codeigniter
 ===================
 
-Paymill library for Codeigniter
+Paymill library for Codeigniter 
+
+[![Build Status](https://travis-ci.org/Saldum/Paymill-Codeigniter.png?branch=master)](https://travis-ci.org/Saldum/Paymill-Codeigniter)
 
 # Usage
 
