@@ -7,15 +7,7 @@ Paymill library for Codeigniter
 
 1. Copy /config/paymill.php, libraries/Paymill and libraries/paymill.php in your project.
 
-2. Put your keys in /config/paymill.php
-
-	$config['paymill_test'] = TRUE;
-	
-	$config['paymill_apiKey_test'] = '';
-	$config['paymill_apiEndPoint_test'] = 'https://api.paymill.de/v2/';
-	
-	$config['paymill_apiKey'] = '';
-	$config['paymill_apiEndPoint'] = 'https://api.paymill.de/v2/';
+2. Put your keys in /config/paymill.php.
 	
 3. Include paymill.php library in your controller and enjoy!
 
