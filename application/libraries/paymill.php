@@ -647,10 +647,9 @@ class Paymill {
 	    $params = array(
            'count'              =>  $count,
            'offset'             =>  $offset,
-           'interval'           =>  $interval,
-           'amount'             =>  $amount,
+           'offer'             =>  $offer,
            'created_at'         =>  $created_at,
-           'trial_period_days'  =>  $trial_period_days
+           'canceled_at'         =>  $canceled_at,
         );
         
 	    $subscriptionsObject = $this->authentication(self::SUBSCRIPTIONS);
