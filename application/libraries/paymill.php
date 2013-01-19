@@ -295,7 +295,7 @@ class Paymill {
         
 	    $transactionsObject = $this->authentication(self::TRANSACTIONS);
         
-		return $transactionsObject->get($param);
+		return $transactionsObject->get($params);
 	}
 	
 	/**
