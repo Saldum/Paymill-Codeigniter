@@ -65,15 +65,24 @@ class Paymill {
 		}
 	}
 
+
 	/**
 	 * Initialize Paymill library with $config arguments
 	 */
-	function initialize ($config = array())
+	function initialize( $config = array() )
 	{
-		extract($config);
+		extract( $config );
 
-		self::$apiKey = $config['paymill_apiKey'];
-		self::$apiEndPoint = $config['paymill_apiEndPoint'];
+		if ( isset( $config[ 'paymill_test' ] ) && !$config[ 'paymill_test' ] || !isset( $config[ 'paymill_test' ] ) )
+		{
+			self::$apiKey = $config[ 'paymill_apiKey' ];
+			self::$apiEndPoint = $config[ 'paymill_apiEndPoint' ];
+		}
+		else if ( isset( $config[ 'paymill_test' ] ) && $config[ 'paymill_test' ] )
+		{
+			self::$apiKey = $config[ 'paymill_apiKey_test' ];
+			self::$apiEndPoint = $config[ 'paymill_apiEndPoint_test' ];
+		}
 	}
 
 	/**
