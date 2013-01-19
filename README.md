@@ -19,13 +19,21 @@ Please report bugs at https://github.com/Saldum/Paymill-Codeigniter/issues
 
 ## Changelog
 
-### 1.0 - 27st December 2012
+### 1.01 - 19st January 2013
+
+- Bugs fixed
+
+### 1.00 - 27st December 2012
 
 - Hello world :D
 
 ## Author
 
 * [Ignacio Soriano](http://twitter.com/isocano)
+
+## Contributors
+
+* [Bennet Matschullat](https://github.com/bmatschullat)
 
 ## TODO
 
